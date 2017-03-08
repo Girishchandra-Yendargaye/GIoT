@@ -1,0 +1,32 @@
+{
+  "host": {
+    "type": "String",
+    "label": "Host",
+    "required": true,
+    "help": "The host/IP address of the MQTT Broker/Server to connect to."
+  },
+  "port": {
+    "type": "Number",
+    "label": "Port",
+    "required": true,
+    "help": "The port of the MQTT Broker/Server to connect to."
+  },
+  "user": {
+    "type": "String",
+    "label": "Username",
+    "help": "(Optional) The username to use to authenticate with the MQTT Broker/Server.",
+    "required": false
+  },
+  "password": {
+    "type": "Password",
+    "label": "Password",
+    "help": "(Optional) The password to use to authenticate with the MQTT Broker/Server.",
+    "required": false
+  },
+  "topic": {
+    "type": "String",
+    "label": "Topic",
+    "required": true,
+    "help": "The topic to listen to."
+  }
+}
